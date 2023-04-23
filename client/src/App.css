@@ -111,11 +111,13 @@
   background:white;
   border-radius:50%;
   width: 40px;
+  padding-top: 6px;
+  padding-left: 6px;
   height: 40px;
 }
 
 .avatar.chatgpt{
-  background:green;
+  background:rgb(100,185,251);
   border-radius:50%;
   width: 40px;
   padding-top: 6px;
