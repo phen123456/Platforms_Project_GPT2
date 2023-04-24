@@ -19,10 +19,6 @@ function App() {
     {
     user: "gpt",
     message: "How can I help you today?"
-  },
-  {
-    user: "me",
-    message: "I want to use ChatGpt today"
   }]);
 
   function clearChat(){

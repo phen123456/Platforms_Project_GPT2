@@ -6,7 +6,7 @@ const cors = require('cors')
 
 const configuration = new Configuration({
     organization: "org-YPkCwjzgHeqMXVB3iOBjko4a",
-    apiKey: "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",
+    apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 // const response = await openai.listEngines();
@@ -24,8 +24,8 @@ app.post('/', async (req,res) => {
     const response = await openai.createCompletion({
         model: `${currentModel}`,
         prompt: `${message}`,
-        max_tokens: 100,
-        temperature: 0.5,
+        max_tokens: 200,
+        temperature: 0.3,
       });
       res.json({
         // data: response.data
